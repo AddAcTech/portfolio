@@ -27,7 +27,7 @@ function Navbar() {
   const aptitudes = [
     {
       id:1,
-      img:"https://www.lavanguardia.com/andro4all/hero/2023/04/6d8841b6-9d24-457a-95c5-0d3de1d7bf5f.png?width=1200&aspect_ratio=16:9",
+      img:"",
       h1:"Aptitudes",
       v1:"Trabajo en equipo",
       v2:"Comunicacion",
@@ -80,7 +80,7 @@ function Navbar() {
           }
         </div>
 
-        <div className='my-auto'>
+        <div className='my-auto overflow-scroll'>
           {
             aptitudes.map(aptitude =>(
               <Aptitudes key={aptitude.id} img={aptitude.img} h1={aptitude.h1} v1={aptitude.v1} v2={aptitude.v2} v3={aptitude.v3}/>

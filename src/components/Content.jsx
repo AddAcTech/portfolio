@@ -2,6 +2,7 @@ import React from 'react'
 import Navproyect from './Navproyect'
 import Jobs from './Jobs'
 import Footer from './Footer'
+import img1 from '../assets/spa.png'
 
 function Content() {
   const tecnologias = [
@@ -43,21 +44,21 @@ function Content() {
       title: 'CasaLyona',
       giro:'Spa',
       link: 'https://casalyona.addac.tech/',
-      img: 'https://cnnespanol.cnn.com/wp-content/uploads/2023/03/f1-formula-1-checo-perez-GettyImages-1247675782-e1677885322904.jpg?quality=100&strip=info'
+      img: img1
     },
     {
       id: 2,
       title: 'La Taqueria',
       giro:'Restaurante',
       link: 'https://casalyona.addac.tech/',
-      img: 'https://cnnespanol.cnn.com/wp-content/uploads/2023/03/f1-formula-1-checo-perez-GettyImages-1247675782-e1677885322904.jpg?quality=100&strip=info'
+      img: 'https://foodandtravel.mx/wp-content/uploads/2021/03/taqueri%CC%81as-en-CDMX.jpg'
     },
     {
       id: 3,
       title: 'Las Delicias',
       giro:'Restaurante',
       link: 'https://casalyona.addac.tech/',
-      img: 'https://cnnespanol.cnn.com/wp-content/uploads/2023/03/f1-formula-1-checo-perez-GettyImages-1247675782-e1677885322904.jpg?quality=100&strip=info'
+      img: 'https://cdn2.chicmagazine.com.mx/uploads/media/2021/06/18/cortes-carne-encantaran-papa-foto.jpg'
     },
     {
       id: 4,
@@ -139,7 +140,7 @@ function Content() {
         </div>
         
         <h1 className='font-bold text-white text-2xl mt-5'>Potenciados por Alexis Aguilar:</h1>
-        <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-7 gap-6 overflow-hidden md:mx-auto'>
+        <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 overflow-hidden gap-6'>
         {
           potenciados.map(potenciado =>(
             <div className='my-5 max-w-16 lg:w-44' key={potenciado.id}>
@@ -150,7 +151,7 @@ function Content() {
         </div>
         
         <h1 className='font-bold text-white text-2xl mt-5'>Mis proyectos personales:</h1>
-        <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-7 gap-6 overflow-hidden md:mx-auto'>
+        <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 overflow-hidden gap-6'>
         {
           personales.map(personal =>(
             <div className='my-5 max-w-16 lg:w-44 ' key={personal.id}>
