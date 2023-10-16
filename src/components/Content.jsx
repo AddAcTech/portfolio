@@ -3,6 +3,7 @@ import Navproyect from './Navproyect'
 import Jobs from './Jobs'
 import Footer from './Footer'
 import img1 from '../assets/spa.png'
+import { IoLogoWhatsapp } from "react-icons/io";
 
 function Content() {
   const tecnologias = [
@@ -121,7 +122,9 @@ function Content() {
         }
         </div>
         <p className='text-white text-xl my-4'>Las empresas que han puesto su confianza en mi, aumentaron sus ventas y popularidad un promedio del 20% en los primeros 40 dias.</p>
-
+        
+        <a href="https://api.whatsapp.com/send?phone=5514942604" className="font-bold text-white bg-[#17d760] flex justify-center items-center gap-1 rounded-lg my-2 max-w-md mx-auto md:hidden"><IoLogoWhatsapp/>Contactame!</a>
+        
         <h1 className='font-bold text-white text-2xl mt-5'>Mis proyectos personales:</h1>
         <div className='grid grid-cols-2 sm:grid-auto-fit gap-6'>
         { 

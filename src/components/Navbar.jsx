@@ -2,6 +2,7 @@ import React from "react";
 import Navtech from "./Navtech";
 import { VscLibrary } from "react-icons/vsc";
 import { RiTeamLine } from "react-icons/ri";
+import { IoLogoWhatsapp } from "react-icons/io";
 import Footer from './Footer'
 
 function Navbar() {
@@ -61,7 +62,9 @@ function Navbar() {
           ))}
         </div>
 
+        <a href="https://api.whatsapp.com/send?phone=5514942604" className="font-bold text-white bg-[#17d760] flex justify-center items-center gap-1 rounded-lg my-2"><IoLogoWhatsapp/>Contactame!</a>
         <Footer/>
+        
 
       </div>
     </div>
