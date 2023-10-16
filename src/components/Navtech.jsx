@@ -2,7 +2,7 @@ import React from 'react'
 
 function Navtech({name}) {
   return (
-    <span className='bg-[#222222] rounded-full mx-1 py-1 px-2'>{name}</span>
+    <p className='bg-[#222222] rounded-full mx-1 py-1 px-4 flex justify-center'>{name}</p>
   )
 }
 

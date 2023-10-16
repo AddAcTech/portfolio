@@ -1,92 +1,68 @@
-import React from 'react';
-import Navtech from './Navtech';
-import {VscLibrary} from 'react-icons/vsc';
-import Aptitudes from './Aptitudes';
+import React from "react";
+import Navtech from "./Navtech";
+import { VscLibrary } from "react-icons/vsc";
+import { RiTeamLine } from "react-icons/ri";
+import Footer from './Footer'
 
 function Navbar() {
 
-  const tecnologias = [
+  const softskills = [
     {
-      id:1,
-      name: "ReactJS"
+      id: 1,
+      name: "Responsabilidad",
     },
     {
-      id:2,
-      name: "JavaScript"
+      id: 2,
+      name: "Cooperacion",
     },
     {
-      id:3,
-      name: "TailwindCSS"
+      id: 3,
+      name: "Adaptabilidad",
     },
     {
-      id:4,
-      name: "HTML"
+      id: 4,
+      name: "Comunicacion",
     }
-  ]
+  ];
 
-  const aptitudes = [
-    {
-      id:1,
-      img:"",
-      h1:"Aptitudes",
-      v1:"Trabajo en equipo",
-      v2:"Comunicacion",
-      v3:"Asertividad"
-    },
-    {
-      id:2,
-      img:"https://www.lavanguardia.com/andro4all/hero/2023/04/6d8841b6-9d24-457a-95c5-0d3de1d7bf5f.png?width=1200&aspect_ratio=16:9",
-      h1:"Metodologias",
-      v1:"Kanban",
-      v2:"Scrum"
-    },
-    {
-      id:3,
-      img:"https://www.lavanguardia.com/andro4all/hero/2023/04/6d8841b6-9d24-457a-95c5-0d3de1d7bf5f.png?width=1200&aspect_ratio=16:9",
-      h1:"Educacion",
-      v1:"Centro de estudios Cientificos y tecnologicos 9, Tecnico en Programacion",
-      v2:"Ingenieria en sistemas ESCOM ",
-    },
-    {
-      id:4,
-      img:"https://www.lavanguardia.com/andro4all/hero/2023/04/6d8841b6-9d24-457a-95c5-0d3de1d7bf5f.png?width=1200&aspect_ratio=16:9",
-      h1:"Hello",
-      v1:"Hello",
-      v2:"Hello",
-      v3:"Hello"
-    }
-  ]
   return (
-    <div className='p-2 h-screen flex flex-col'>
-      <div className='text-[#a7a7a7] h-28 bg-[#121212] rounded-md p-3 flex flex-col justify-center'>
-        <ul className='font-bold'>
-          <li className='my-2'><p>Bienvenido</p></li>
-          <li className='my-2'><p>Contactame</p></li>
-        </ul>
+    <div className="p-2 h-screen flex flex-col">
+        
+      <div className="font-bold p-3 flex flex-col justify-center text-[#a7a7a7] h-28 bg-[#121212] rounded-md min-w-min">
+        <p>Bienvenido a mi portafolio!</p>
+        <p>Contactame para potenciar tu empresa.</p>
       </div>
 
-      <div className='mt-2 bg-[#121212] rounded-md p-3 h-full'>
-        <section className='text-[#a7a7a7] font-bold text-xl'>
-          <h1><VscLibrary/>Experiencia en:</h1>
-        </section>
+      <div className="mt-2 bg-[#121212] rounded-md p-3 h-full flex flex-col">
+          
+        <h2 className="text-[#a7a7a7] font-bold text-xl my-2">
+          <VscLibrary />
+          Sobre mi:
+        </h2>
 
-        <div className='text-white justify-center mt-4 gap-3 py-1 lg:flex-row flex-col flex sm:overflow-hidden'>
-          {
-          tecnologias.map(tecnologia =>(
-            <div key={tecnologia.id} className='w-full'>
-              <Navtech name={tecnologia.name}/>
+        <div className='flex flex-col sm:justify-center bg-[#181818] p-4 rounded-md'>
+          <img src="https://th.bing.com/th/id/R.2af3d15a3bb050df27a1a9eedb2eb765?rik=TNeLI2sCt%2b%2bU8A&pid=ImgRaw&r=0" alt="profile pic" className='h-32 sm:h-40 rounded-md object-cover' />
+          <div className='mt-2'>
+            <h2 className='text-white font-bold my-2'>Alexis Aguilar</h2>
+            <h2 className='mb-2 text-[#a7a7a7]'>Estudiante de ingenieria en sistemas - ESCOM</h2>
+          </div>
+        </div>
+
+        <h2 className="text-[#a7a7a7] font-bold text-xl my-2">
+          <RiTeamLine/>
+          Softskills:
+        </h2>
+
+        <div className="text-white gap-3 py-1 grid grid-cols-2 items-center">
+          {softskills.map((softskill) => (
+            <div key={softskill.id}>
+              <Navtech name={softskill.name} />
             </div>
-          ))
-          }
+          ))}
         </div>
 
-        <div className='my-auto overflow-scroll'>
-          {
-            aptitudes.map(aptitude =>(
-              <Aptitudes key={aptitude.id} img={aptitude.img} h1={aptitude.h1} v1={aptitude.v1} v2={aptitude.v2} v3={aptitude.v3}/>
-            ))
-          }
-        </div>
+        <Footer/>
+
       </div>
     </div>
   );

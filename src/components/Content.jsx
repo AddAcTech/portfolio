@@ -79,38 +79,10 @@ function Content() {
   const personales = [
     {
       id: 1,
-      title: 'CasaLyona',
-      giro:'Spa',
-      link: 'https://casalyona.addac.tech/',
-      img: 'https://cnnespanol.cnn.com/wp-content/uploads/2023/03/f1-formula-1-checo-perez-GettyImages-1247675782-e1677885322904.jpg?quality=100&strip=info'
-    },
-    {
-      id: 2,
-      title: 'La Taqueria',
-      giro:'Restaurante',
-      link: 'https://casalyona.addac.tech/',
-      img: 'https://cnnespanol.cnn.com/wp-content/uploads/2023/03/f1-formula-1-checo-perez-GettyImages-1247675782-e1677885322904.jpg?quality=100&strip=info'
-    },
-    {
-      id: 3,
-      title: 'Las Delicias',
-      giro:'Restaurante',
-      link: 'https://casalyona.addac.tech/',
-      img: 'https://cnnespanol.cnn.com/wp-content/uploads/2023/03/f1-formula-1-checo-perez-GettyImages-1247675782-e1677885322904.jpg?quality=100&strip=info'
-    },
-    {
-      id: 4,
-      title: 'Las Delicias',
-      giro:'Restaurante',
-      link: 'https://casalyona.addac.tech/',
-      img: 'https://cnnespanol.cnn.com/wp-content/uploads/2023/03/f1-formula-1-checo-perez-GettyImages-1247675782-e1677885322904.jpg?quality=100&strip=info'
-    },
-    {
-      id: 5,
-      title: 'Las Delicias',
-      giro:'Restaurante',
-      link: 'https://casalyona.addac.tech/',
-      img: 'https://cnnespanol.cnn.com/wp-content/uploads/2023/03/f1-formula-1-checo-perez-GettyImages-1247675782-e1677885322904.jpg?quality=100&strip=info'
+      title: 'Color Picker',
+      giro:'Extension de navegador',
+      link: 'https://github.com/AddAcTech/colorpicker',
+      img: 'https://th.bing.com/th/id/OIP.cOVZPS-yKeMy4Ov0koU5lwHaGz?pid=ImgDet&rs=1'
     }
   ]
 
@@ -120,8 +92,8 @@ function Content() {
       <div className='w-full bg-[#121212] sm:rounded-md p-5'>
         <div>
           <h1 className='font-bold text-3xl text-white'>Hola Mundo!</h1>
-          <p className='text-white'>Programador front-end, potenciando el crecimiento de tu empresa ofreciendo comunicacion continua para obtener los mejores resultados.</p>
-          <p className='text-[#a7a7a7]  '>-Alexis Aguilar</p>
+          <p className='text-white text-xl'>Programador front-end, potenciando el crecimiento de tu empresa ofreciendo comunicacion continua para obtener los mejores resultados.</p>
+          <p className='text-[#a7a7a7] font-bold '>-Alexis Aguilar</p>
         </div>
         
         <div className='mt-5'>
@@ -138,30 +110,34 @@ function Content() {
             </div>
           </div>
         </div>
-        
         <h1 className='font-bold text-white text-2xl mt-5'>Potenciados por Alexis Aguilar:</h1>
-        <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 overflow-hidden gap-6'>
+        <div className='grid grid-cols-2 sm:grid-auto-fit gap-6'>
         {
           potenciados.map(potenciado =>(
-            <div className='my-5 max-w-16 lg:w-44' key={potenciado.id}>
+            <div className='my-5' key={potenciado.id}>
               <Jobs refe={potenciado.link} img={potenciado.img} nombre={potenciado.title} desc={potenciado.giro} />
             </div>
           ))
         }
         </div>
-        
+        <p className='text-white text-xl my-4'>Las empresas que han puesto su confianza en mi, aumentaron sus ventas y popularidad un promedio del 20% en los primeros 40 dias.</p>
+
         <h1 className='font-bold text-white text-2xl mt-5'>Mis proyectos personales:</h1>
-        <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 overflow-hidden gap-6'>
-        {
+        <div className='grid grid-cols-2 sm:grid-auto-fit gap-6'>
+        { 
           personales.map(personal =>(
-            <div className='my-5 max-w-16 lg:w-44 ' key={personal.id}>
-              <Jobs img={personal.img} nombre={personal.title} desc={personal.giro}/>
+            <div className='my-5 max-w-md' key={personal.id}>
+              <Jobs refe={personal.link} img={personal.img} nombre={personal.title} desc={personal.giro}/>
             </div>
           ))
         }
         </div>
-
-        <Footer/>
+        
+        <p className='text-white text-xl my-4'>Proyectos que realizo para automatizar, facilitar y optimizar tareas, desarrollados en mi tiempo libre como pasatiempo.</p>
+        
+        <div className='md:hidden'>
+          <Footer/>
+        </div>
       </div>
     </div>
   )
