@@ -12,7 +12,7 @@ function Content() {
         <div>
           <h1 className="font-bold text-3xl text-white">Hola Mundo!</h1>
           <p className="text-white text-xl">
-            Programador front-end, potenciando el crecimiento de tu empresa
+            Desarrollador web, potenciando el crecimiento de tu empresa
             ofreciendo comunicacion continua para obtener los mejores
             resultados.
           </p>
@@ -56,8 +56,8 @@ function Content() {
           ))}
         </div>
         <p className="text-white text-xl my-4">
-          Las empresas que han puesto su confianza en mi, aumentaron sus ventas
-          y popularidad un promedio del 20% en los primeros 40 dias.
+          Las empresas que han puesto su confianza en mí, aumentaron sus ventas
+          y popularidad un promedio del 20% en los primeros 40 días.
         </p>
 
         <a
@@ -86,7 +86,8 @@ function Content() {
 
         <p className="text-white text-xl my-4">
           Proyectos que realizo para automatizar, facilitar y optimizar tareas,
-          desarrollados en mi tiempo libre como pasatiempo.
+          o retarme a mí mismo, desarrollados en mi tiempo libre como
+          pasatiempo.
         </p>
 
         <div className="md:hidden">

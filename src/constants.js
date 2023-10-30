@@ -73,20 +73,6 @@ export const potenciados = [
     link: "https://casalyona.addac.tech/",
     img: "https://cdn2.chicmagazine.com.mx/uploads/media/2021/06/18/cortes-carne-encantaran-papa-foto.jpg",
   },
-  {
-    id: 4,
-    title: "Las Delicias",
-    giro: "Restaurante",
-    link: "https://casalyona.addac.tech/",
-    img: "https://cnnespanol.cnn.com/wp-content/uploads/2023/03/f1-formula-1-checo-perez-GettyImages-1247675782-e1677885322904.jpg?quality=100&strip=info",
-  },
-  {
-    id: 5,
-    title: "Las Delicias",
-    giro: "Restaurante",
-    link: "https://casalyona.addac.tech/",
-    img: "https://cnnespanol.cnn.com/wp-content/uploads/2023/03/f1-formula-1-checo-perez-GettyImages-1247675782-e1677885322904.jpg?quality=100&strip=info",
-  },
 ];
 
 export const personales = [

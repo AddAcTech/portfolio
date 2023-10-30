@@ -5,6 +5,7 @@ import { RiTeamLine } from "react-icons/ri";
 import { IoLogoWhatsapp } from "react-icons/io";
 import Footer from "./Footer";
 import { softskills } from "../constants.js";
+import pfp from "../assets/me.jpg";
 
 function Navbar() {
   return (
@@ -17,7 +18,7 @@ function Navbar() {
 
         <div className="flex flex-col sm:justify-center bg-[#181818] p-4 rounded-md">
           <img
-            src="https://th.bing.com/th/id/R.2af3d15a3bb050df27a1a9eedb2eb765?rik=TNeLI2sCt%2b%2bU8A&pid=ImgRaw&r=0"
+            src={pfp}
             alt="profile pic"
             className="h-32 sm:h-40 rounded-md object-cover"
           />
