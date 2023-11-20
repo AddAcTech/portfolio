@@ -1,4 +1,5 @@
 import img1 from "./assets/spa.png";
+import img2 from "./assets/second.png";
 export const softskills = [
   {
     id: 1,
@@ -54,17 +55,17 @@ export const tecnologias = [
 export const potenciados = [
   {
     id: 1,
+    title: "Nike Redising",
+    giro: "E-commerce landing",
+    link: "https://nike.addac.tech/",
+    img: img2,
+  },
+  {
+    id: 2,
     title: "CasaLyona",
     giro: "Spa",
     link: "https://casalyona.addac.tech/",
     img: img1,
-  },
-  {
-    id: 2,
-    title: "La Taqueria",
-    giro: "Restaurante",
-    link: "https://casalyona.addac.tech/",
-    img: "https://foodandtravel.mx/wp-content/uploads/2021/03/taqueri%CC%81as-en-CDMX.jpg",
   },
   {
     id: 3,

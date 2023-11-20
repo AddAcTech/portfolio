@@ -9,14 +9,15 @@ import pfp from "../assets/me.jpg";
 
 function Navbar() {
   return (
-    <div className="p-2 lg:sticky hidden lg:top-0 h-full lg:flex">
+    <div className="p-2 lg:sticky hidden lg:top-0 h-screen lg:flex">
+      {" "}
+      {/*h-full no bug*/}
       <div className="bg-[#121212] rounded-md p-3 gap-2 flex flex-col">
-        <h2 className="text-[#918888] flex items-center gap-2 font-bold text-xl mb-2">
-          <VscLibrary />
-          Sobre mi:
-        </h2>
-
         <div className="flex flex-col sm:justify-center bg-[#181818] p-4 rounded-md">
+          <h2 className="text-[#918888] flex items-center gap-2 font-bold text-xl mb-2">
+            <VscLibrary />
+            Sobre mi:
+          </h2>
           <img
             src={pfp}
             alt="profile pic"
@@ -34,7 +35,6 @@ function Navbar() {
           <RiTeamLine />
           Softskills:
         </h2>
-
         <div className="text-white gap-3 py-1 grid grid-cols-2 items-center">
           {softskills.map((softskill) => (
             <div key={softskill.id}>

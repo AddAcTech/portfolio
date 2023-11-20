@@ -2,12 +2,13 @@ import React from "react";
 import Navproyect from "./Navproyect";
 import Jobs from "./Jobs";
 import Footer from "./Footer";
+import About from "./About";
 import { IoLogoWhatsapp } from "react-icons/io";
 import { tecnologias, potenciados, personales } from "../constants";
 
 function Content() {
   return (
-    <div className="sm:py-2 sm:pr-2">
+    <div className="lg:py-2 lg:pr-2 ">
       <div className="w-full bg-[#121212] sm:rounded-md p-5">
         <div>
           <h1 className="font-bold text-3xl text-white">Hola Mundo!</h1>
@@ -18,6 +19,7 @@ function Content() {
           </p>
           <p className="text-[#a7a7a7] font-bold ">-Alexis Aguilar</p>
         </div>
+        <About />
 
         <div className="mt-5">
           <h1 className="font-bold text-2xl text-white">

@@ -3,13 +3,13 @@ import React from "react";
 function Jobs({ img, nombre, desc, refe }) {
   return (
     <a
-      className="flex flex-col sm:justify-center bg-[#181818] hover:[#262626] hover:transition-all ease-in-out duration-500 p-4 rounded-md"
+      className="flex flex-col sm:justify-center bg-[#181818] hover:bg-white hover:transition-all ease-in-out duration-500 p-4 rounded-md"
       href={refe}
       target="blank"
     >
       <img
         src={img}
-        alt="Imagen del proyecto"
+        alt={nombre}
         className="h-32 sm:h-40 rounded-md object-cover"
       />
       <div className="mt-2">
