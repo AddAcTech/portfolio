@@ -45,9 +45,9 @@ function Content() {
         <h1 className="font-bold text-white text-2xl mt-5">
           Potenciados por Alexis Aguilar:
         </h1>
-        <div className="grid grid-cols-2 sm:grid-auto-fit gap-6">
+        <div className="grid grid-cols-2 sm:grid-auto-fit gap-6 my-2">
           {potenciados.map((potenciado) => (
-            <div className="my-5" key={potenciado.id}>
+            <div key={potenciado.id}>
               <Jobs
                 refe={potenciado.link}
                 img={potenciado.img}
@@ -57,14 +57,14 @@ function Content() {
             </div>
           ))}
         </div>
-        <p className="text-white text-xl my-4">
+        {/* <p className="text-white text-xl my-4">
           Las empresas que han puesto su confianza en mí, aumentaron sus ventas
           y popularidad un promedio del 20% en los primeros 40 días.
-        </p>
+        </p> */}
 
         <a
           href="https://api.whatsapp.com/send?phone=5514942604"
-          className="font-bold text-white bg-[#17d760] flex justify-center items-center gap-1 rounded-lg my-2 max-w-md mx-auto md:hidden"
+          className="font-bold text-white bg-[#17d760] flex justify-center items-center gap-1 rounded-lg my-3 max-w-md mx-auto md:hidden"
         >
           <IoLogoWhatsapp />
           Contactame!
@@ -73,9 +73,9 @@ function Content() {
         <h1 className="font-bold text-white text-2xl mt-5">
           Mis proyectos personales:
         </h1>
-        <div className="grid grid-cols-2 sm:grid-auto-fit gap-6">
+        <div className="grid grid-cols-2 sm:grid-auto-fit gap-6 my-2">
           {personales.map((personal) => (
-            <div className="my-5 max-w-md" key={personal.id}>
+            <div key={personal.id}>
               <Jobs
                 refe={personal.link}
                 img={personal.img}

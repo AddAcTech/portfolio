@@ -62,16 +62,16 @@ export const potenciados = [
   },
   {
     id: 2,
-    title: "CasaLyona",
-    giro: "Spa",
-    link: "https://casalyona.addac.tech/",
+    title: "Carmen Navarro",
+    giro: "Pediatra",
+    link: "https://pediatra.addac.tech/",
     img: img1,
   },
   {
     id: 3,
     title: "Las Delicias",
     giro: "Restaurante",
-    link: "https://casalyona.addac.tech/",
+    link: "/",
     img: "https://cdn2.chicmagazine.com.mx/uploads/media/2021/06/18/cortes-carne-encantaran-papa-foto.jpg",
   },
 ];
@@ -83,5 +83,12 @@ export const personales = [
     giro: "Extension de navegador",
     link: "https://github.com/AddAcTech/colorpicker",
     img: "https://th.bing.com/th/id/OIP.cOVZPS-yKeMy4Ov0koU5lwHaGz?pid=ImgDet&rs=1",
+  },
+  {
+    id: 2,
+    title: "Room temperature",
+    giro: "Web sockets embedded",
+    link: "https://github.com/AddAcTech/room",
+    img: "https://th.bing.com/th/id/OIP.7jlzgA0GkzJqBuXUtxmdKgHaEL?rs=1&pid=ImgDetMain",
   },
 ];
