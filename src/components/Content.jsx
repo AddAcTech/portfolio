@@ -64,7 +64,7 @@ function Content() {
 
         <a
           href="https://api.whatsapp.com/send?phone=5514942604"
-          className="font-bold text-white bg-[#17d760] flex justify-center items-center gap-1 rounded-lg my-3 max-w-md mx-auto md:hidden"
+          className="font-bold text-white bg-[#17d760] flex justify-center items-center gap-1 rounded-lg my-3 max-w-md mx-auto lg:hidden"
         >
           <IoLogoWhatsapp />
           Contactame!

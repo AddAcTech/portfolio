@@ -10,7 +10,6 @@ import pfp from "../assets/me.jpg";
 function Navbar() {
   return (
     <div className="p-2 lg:sticky hidden lg:top-0 h-screen lg:flex">
-      {" "}
       {/*h-full no bug*/}
       <div className="bg-[#121212] rounded-md p-3 gap-2 flex flex-col">
         <div className="flex flex-col sm:justify-center bg-[#181818] p-4 rounded-md">
