@@ -1,5 +1,6 @@
 import img1 from "./assets/spa.png";
 import img2 from "./assets/second.png";
+import img3 from "./assets/pinterest.png";
 export const softskills = [
   {
     id: 1,
@@ -79,13 +80,20 @@ export const potenciados = [
 export const personales = [
   {
     id: 1,
+    title: "Movie Poster",
+    giro: "Pinterest generator",
+    link: "https://pinterestposter.addac.tech/",
+    img: img3,
+  },
+  {
+    id: 2,
     title: "Color Picker",
     giro: "Extension de navegador",
     link: "https://github.com/AddAcTech/colorpicker",
     img: "https://th.bing.com/th/id/OIP.cOVZPS-yKeMy4Ov0koU5lwHaGz?pid=ImgDet&rs=1",
   },
   {
-    id: 2,
+    id: 3,
     title: "Room temperature",
     giro: "Web sockets embedded",
     link: "https://github.com/AddAcTech/room",
