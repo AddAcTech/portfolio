@@ -1,6 +1,8 @@
 import img1 from "./assets/spa.png";
 import img2 from "./assets/second.png";
 import img3 from "./assets/pinterest.png";
+import img4 from "./assets/gala.png";
+import img5 from "./assets/MERN.png";
 export const softskills = [
   {
     id: 1,
@@ -98,5 +100,19 @@ export const personales = [
     giro: "Web sockets embedded",
     link: "https://github.com/AddAcTech/room",
     img: "https://th.bing.com/th/id/OIP.7jlzgA0GkzJqBuXUtxmdKgHaEL?rs=1&pid=ImgDetMain",
+  },
+  {
+    id: 4,
+    title: "Login with session",
+    giro: "Laravel, MySql, PDF generator",
+    link: "https://github.com/AddAcTech/proyectoWebFront",
+    img: img4,
+  },
+  {
+    id: 5,
+    title: "Voice command recognition",
+    giro: "Tensorflow and MERN",
+    link: "https://github.com/AddAcTech/MERN-voice-recognition",
+    img: img5,
   },
 ];

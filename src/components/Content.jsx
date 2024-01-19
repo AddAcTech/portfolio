@@ -8,7 +8,7 @@ import { tecnologias, potenciados, personales } from "../constants";
 
 function Content() {
   return (
-    <div className="lg:py-2 lg:pr-2 ">
+    <div className="lg:py-2 lg:pr-2">
       <div className="w-full bg-[#121212] sm:rounded-md p-5">
         <div>
           <h1 className="font-bold text-3xl text-white">Hola Mundo!</h1>
@@ -92,7 +92,7 @@ function Content() {
           pasatiempo.
         </p>
 
-        <div className="md:hidden">
+        <div className="lg:hidden">
           <Footer />
         </div>
       </div>
