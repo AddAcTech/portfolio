@@ -3,10 +3,11 @@ import { RiTeamLine } from "react-icons/ri";
 import Navtech from "./Navtech";
 import pfp from "../assets/me.jpg";
 import { softskills } from "../constants.js";
+import { FaGithubSquare, FaLinkedin, FaWhatsappSquare } from "react-icons/fa";
 
 export default function About() {
   return (
-    <div className="p-3 gap-6 flex flex-col sm:flex-row justify-center lg:hidden">
+    <div className="p-3 gap-6 flex flex-row justify-center">
       <div className="flex flex-col sm:justify-center bg-[#181818] p-4 rounded-md">
         <h2 className="text-[#918888] flex items-center gap-2 font-bold text-xl mb-2">
           <VscLibrary />
@@ -25,17 +26,40 @@ export default function About() {
         </div>
       </div>
 
-      <div className="text-white flex flex-col justify-center items-center">
-        <h2 className="text-[#a7a7a7] flex items-center gap-2 font-bold text-xl my-2">
-          <RiTeamLine />
-          Softskills:
-        </h2>
+      <div className="text-white flex flex-col justify-center items-center gap-3">
         <div className="flex flex-col gap-2">
+          <h2 className="text-[#a7a7a7] flex items-center gap-2 font-bold text-xl mt-2 mx-auto">
+            <RiTeamLine />
+            Softskills:
+          </h2>
           {softskills.map((softskill) => (
             <div key={softskill.id}>
               <Navtech name={softskill.name} />
             </div>
           ))}
+        </div>
+        <div className="flex justify-center gap-3 text-[#17d760]">
+          <a
+            href="https://www.linkedin.com/in/alexis-daniel-aguilar-chavez-65a325274"
+            target="blank"
+            className="hover:scale-110 transition-all ease-in-out"
+          >
+            <FaLinkedin size={50} />
+          </a>
+          <a
+            href="https://github.com/AddAcTech"
+            target="blank"
+            className="hover:scale-110 transition-all ease-in-out"
+          >
+            <FaGithubSquare size={50} />
+          </a>
+          <a
+            href="https://api.whatsapp.com/send?phone=5514942604"
+            target="blank"
+            className="hover:scale-110 transition-all ease-in-out"
+          >
+            <FaWhatsappSquare size={50} />
+          </a>
         </div>
       </div>
     </div>

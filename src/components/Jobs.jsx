@@ -3,7 +3,7 @@ import React from "react";
 function Jobs({ img, nombre, desc, refe }) {
   return (
     <a
-      className="flex flex-col sm:justify-center bg-[#181818] hover:bg-white hover:transition-all ease-in-out duration-500 p-4 rounded-md"
+      className="flex flex-col sm:justify-center bg-[#181818] hover:scale-105 hover:transition-all ease-in-out duration-500 p-4 rounded-md"
       href={refe}
       target="blank"
     >
