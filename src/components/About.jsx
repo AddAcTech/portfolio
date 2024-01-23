@@ -7,7 +7,7 @@ import { FaGithubSquare, FaLinkedin, FaWhatsappSquare } from "react-icons/fa";
 
 export default function About() {
   return (
-    <div className="p-3 gap-6 flex flex-row justify-center">
+    <div className="p-3 gap-6 flex flex-col sm:flex-row justify-center">
       <div className="flex flex-col sm:justify-center bg-[#181818] p-4 rounded-md">
         <h2 className="text-[#918888] flex items-center gap-2 font-bold text-xl mb-2">
           <VscLibrary />

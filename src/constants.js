@@ -3,6 +3,7 @@ import img2 from "./assets/second.png";
 import img3 from "./assets/pinterest.png";
 import img4 from "./assets/gala.png";
 import img5 from "./assets/MERN.png";
+import img6 from "./assets/schedule.png";
 export const softskills = [
   {
     id: 1,
@@ -37,7 +38,7 @@ export const tecnologias = [
   },
   {
     id: 3,
-    title: "TailwindCSS",
+    title: "Tailwind",
     desc: "Descripcion 1",
     img: "https://avatars.githubusercontent.com/u/67109815?s=200&v=4",
   },
@@ -49,9 +50,21 @@ export const tecnologias = [
   },
   {
     id: 5,
-    title: "TensorflowJS",
+    title: "Tensorflow",
     desc: "Descripcion 1",
     img: "https://static-00.iconduck.com/assets.00/tensorflow-icon-1911x2048-1m2s54vn.png",
+  },
+  {
+    id: 6,
+    title: "Node JS",
+    desc: "Descripcion 1",
+    img: "https://seeklogo.com/images/N/nodejs-logo-FBE122E377-seeklogo.com.png",
+  },
+  {
+    id: 7,
+    title: "MySQL",
+    desc: "Descripcion 1",
+    img: "https://pngimg.com/uploads/mysql/mysql_PNG24.png",
   },
 ];
 
@@ -89,27 +102,34 @@ export const personales = [
   },
   {
     id: 2,
+    title: "Schedule",
+    giro: "Web School Schedule",
+    link: "https://schedule.addac.tech/",
+    img: img6,
+  },
+  {
+    id: 3,
     title: "Color Picker",
     giro: "Extension de navegador",
     link: "https://github.com/AddAcTech/colorpicker",
     img: "https://th.bing.com/th/id/OIP.cOVZPS-yKeMy4Ov0koU5lwHaGz?pid=ImgDet&rs=1",
   },
   {
-    id: 3,
+    id: 4,
     title: "Room temperature",
     giro: "Web sockets embedded",
     link: "https://github.com/AddAcTech/room",
     img: "https://th.bing.com/th/id/OIP.7jlzgA0GkzJqBuXUtxmdKgHaEL?rs=1&pid=ImgDetMain",
   },
   {
-    id: 4,
+    id: 5,
     title: "Login with session",
     giro: "Laravel, MySql, PDF generator",
     link: "https://github.com/AddAcTech/proyectoWebFront",
     img: img4,
   },
   {
-    id: 5,
+    id: 6,
     title: "Voice command recognition",
     giro: "Tensorflow and MERN",
     link: "https://github.com/AddAcTech/MERN-voice-recognition",
