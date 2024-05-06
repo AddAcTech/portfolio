@@ -11,7 +11,7 @@ export const softskills = [
   },
   {
     id: 2,
-    name: "Cooperacion",
+    name: "Cooperación",
   },
   {
     id: 3,
@@ -19,7 +19,7 @@ export const softskills = [
   },
   {
     id: 4,
-    name: "Comunicacion",
+    name: "Comunicación",
   },
 ];
 
@@ -32,7 +32,7 @@ export const tecnologias = [
   },
   {
     id: 2,
-    title: "ReactJS",
+    title: "ReactJS, React Native",
     desc: "Descripcion 1",
     img: "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png",
   },
@@ -62,6 +62,18 @@ export const tecnologias = [
   },
   {
     id: 7,
+    title: "Laravel",
+    desc: "Descripcion 1",
+    img: "https://logospng.org/download/laravel/logo-laravel-icon-1024.png",
+  },
+  {
+    id: 8,
+    title: ".net",
+    desc: "Descripcion 1",
+    img: "https://logos-world.net/wp-content/uploads/2022/01/NET-Framework-Logo.png",
+  },
+  {
+    id: 9,
     title: "MySQL",
     desc: "Descripcion 1",
     img: "https://pngimg.com/uploads/mysql/mysql_PNG24.png",
@@ -83,56 +95,77 @@ export const potenciados = [
     link: "https://pediatra.addac.tech/",
     img: img1,
   },
-  {
-    id: 3,
-    title: "Las Delicias",
-    giro: "Restaurante",
-    link: "/",
-    img: "https://cdn2.chicmagazine.com.mx/uploads/media/2021/06/18/cortes-carne-encantaran-papa-foto.jpg",
-  },
+  // {
+  //   id: 3,
+  //   title: "Las Delicias",
+  //   giro: "Restaurante",
+  //   link: "/",
+  //   img: "https://cdn2.chicmagazine.com.mx/uploads/media/2021/06/18/cortes-carne-encantaran-papa-foto.jpg",
+  // },
 ];
 
 export const personales = [
   {
     id: 1,
-    title: "Movie Poster",
-    giro: "Pinterest generator",
-    link: "https://pinterestposter.addac.tech/",
-    img: img3,
-  },
-  {
-    id: 2,
-    title: "Schedule",
-    giro: "Web School Schedule",
-    link: "https://schedule.addac.tech/",
+    title: "School Schedule",
+    giro: "Android App,",
+    link: "https://github.com/AddAcTech/schedule",
     img: img6,
   },
   {
-    id: 3,
+    id: 2,
     title: "Color Picker",
     giro: "Extension de navegador",
     link: "https://github.com/AddAcTech/colorpicker",
     img: "https://th.bing.com/th/id/OIP.cOVZPS-yKeMy4Ov0koU5lwHaGz?pid=ImgDet&rs=1",
   },
   {
+    id: 3,
+    title: "Movie Poster",
+    giro: "Pinterest generator",
+    link: "https://pinterestposter.addac.tech/",
+    img: img3,
+  },
+  {
     id: 4,
+    title: "To-do list ",
+    giro: "Laravel, MySql, Blade",
+    link: "https://github.com/AddAcTech/levu",
+    img: "https://4.bp.blogspot.com/-i0CpzPah220/UDXImvGl_gI/AAAAAAAAA-0/S93xZfCW6Hg/s1600/post-it-notes-and-pins-fd984.jpg",
+  },
+  {
+    id: 5,
     title: "Room temperature",
-    giro: "Web sockets embedded",
+    giro: "Web sockets, Arduino, NodeJS",
     link: "https://github.com/AddAcTech/room",
     img: "https://th.bing.com/th/id/OIP.7jlzgA0GkzJqBuXUtxmdKgHaEL?rs=1&pid=ImgDetMain",
   },
   {
-    id: 5,
+    id: 6,
+    title: "Voice recognition",
+    giro: "Tensorflow and MERN",
+    link: "https://github.com/AddAcTech/MERN-voice-recognition",
+    img: img5,
+  },
+  {
+    id: 7,
     title: "Login with session",
     giro: "Laravel, MySql, PDF generator",
     link: "https://github.com/AddAcTech/proyectoWebFront",
     img: img4,
   },
   {
-    id: 6,
-    title: "Voice command recognition",
-    giro: "Tensorflow and MERN",
-    link: "https://github.com/AddAcTech/MERN-voice-recognition",
-    img: img5,
+    id: 8,
+    title: "Memento Mori Calendar",
+    giro: "React, Tailwindcss",
+    link: "https://memento-mori.addac.tech/",
+    img: img5 /*----------------------------------*/,
+  },
+  {
+    id: 9,
+    title: "Flashcards App",
+    giro: "React, Nodejs, MySql",
+    link: "https://github.com/AddAcTech/flashcardsFrontend",
+    img: "https://i.etsystatic.com/23728824/r/il/55bd6b/2573199435/il_1588xN.2573199435_foj6.jpg",
   },
 ];

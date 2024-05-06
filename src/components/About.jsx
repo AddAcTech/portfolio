@@ -19,9 +19,12 @@ export default function About() {
           className="h-32 sm:h-40 rounded-md object-cover"
         />
         <div className="mt-2">
-          <h2 className="text-white font-bold my-2">Alexis Aguilar</h2>
+          <h2 className="text-white font-bold my-2 text-xl">Alexis Aguilar</h2>
+          <h2 className="mb-2 text-[#17d760] font-bold">
+            Desarrollador Fullstack en McCollect
+          </h2>
           <h2 className="mb-2 text-[#a7a7a7]">
-            Estudiante de ingenieria en sistemas - ESCOM
+            Estudiante de ingeniería en sistemas - ESCOM
           </h2>
         </div>
       </div>

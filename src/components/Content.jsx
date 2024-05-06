@@ -1,4 +1,3 @@
-import React from "react";
 import Navproyect from "./Navproyect";
 import Jobs from "./Jobs";
 import Footer from "./Footer";
