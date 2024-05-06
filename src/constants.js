@@ -159,7 +159,7 @@ export const personales = [
     title: "Memento Mori Calendar",
     giro: "React, Tailwindcss",
     link: "https://memento-mori.addac.tech/",
-    img: img5 /*----------------------------------*/,
+    img: "https://i.etsystatic.com/22132452/r/il/66df25/2944493095/il_fullxfull.2944493095_dgz3.jpg",
   },
   {
     id: 9,
